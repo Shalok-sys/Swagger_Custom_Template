@@ -2,7 +2,7 @@
 This repository contains the CSS file for a custom swagger theme. Feel free to use it, if you like it !
 # 🛠️ Customize Your Own Swagger UI Template
 
-This project provides a basic **Swagger UI** (`basic.html`) integrated with a **custom theme** (`theme-custom.css`).  
+This project provides a basic **Swagger UI** (`basic.html`) integrated with a **custom theme** (`theme-custom.css`). The aim of showing Basic.html file is so that you can get an idea of what classes would be there to modify for improving its CSS. By simply, working on the CSS you can completely change the look of your OpenAPI template. This task is a part of an assignment. Please treat it as such.  
 You can easily build your **own customized Swagger interface** by focusing on specific CSS classes without modifying Swagger’s internal JavaScript.
 
 ---
@@ -10,14 +10,14 @@ You can easily build your **own customized Swagger interface** by focusing on sp
 ## 📁 Project Structure
 
 ```plaintext
+Below is the usual project strucutre, once you have created a basic working OpenAPI documentation using swagger. 
 /
 ├── basic.html
 ├── styles/
 │   └── theme-custom.css
-├── swagger-ui.css (default Swagger stylesheet)
 └── (other assets like favicon, images)
 ```
-
+Here, you only have to modify them-custom.css ! and your job is done.
 ---
 
 ## 🌟 Key Classes to Customize
@@ -130,18 +130,16 @@ body {
 ```
 
 ---
+---
+## Results
+![image](https://github.com/user-attachments/assets/d9e0d642-7a63-4897-987a-6fa863eb4a5f)
+
+---
 
 ## 📢 Notes
 
 - The favicon and Swagger branding (logo) are kept **untouched** for simplicity.
 - Feel free to add transitions, dark/light switchers, or advanced animations depending on your project needs.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-Feel free to modify, distribute, or use it in your personal or commercial projects.
 
 ---
 
